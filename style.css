@@ -1,0 +1,134 @@
+.banner{
+    width: 100%;
+    height: 710px;
+    background: #F98B56;
+    flex-direction: row;
+}
+
+span{
+    position: absolute;
+    margin-left: 5px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+  }
+
+  input{
+    padding-left: 25px;
+    height: 20px;
+  }
+
+  .topdest{
+    border-left: 4px solid #F7762A;
+    height: 94px;
+}
+
+.lookcity{
+height: 151px;
+border-left: 4px solid #F7762A;
+}
+
+.activities,.holidays,.travelstories,.partners{
+    height: 80px;
+    border-left: 4px solid #F7762A;
+}
+
+.footer{
+  width: 100%;
+  height: 444px;
+
+}
+.about{
+  height: 336px;
+  box-shadow: 15px 15px 25px rgba(0, 0, 0, 0.75);
+}
+
+
+
+
+.footerHeading{
+  font-weight: 700;
+  font-size: 18px;
+}
+.footerLink{
+  font-weight: 500;
+  font-size: 20px;
+  color: #898989;
+}
+
+.abouttravel{
+  width: 147px;
+  border-bottom: 2px solid #F7762A;
+
+}
+.makingthings{
+  width: 147px;
+  border-bottom: 2px solid #F7762A;
+  
+}
+.findUs{
+  width: 51px;
+  border-bottom: 2px solid #F7762A;
+
+}
+.footerDivider{
+  border: 1px solid #F7762A;
+
+}
+.copyright{
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+}
+.gotoTop{
+  height: 28px;
+  width: 28px;
+  background: #F7762A;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.25);
+
+
+}
+.cardTitle{
+font-size: 18px;
+font-weight: 400;
+
+
+}
+.card{
+  margin-bottom: 0px !important;
+}
+.card-columns {
+  column-gap: 0.25rem;
+}
+.viewAllBtn{
+  background-color: #F7762A;
+}
+.col1{
+  width: 33.33%;
+  text-align: left;
+}
+
+@media  (max-width: 600px) {
+  .footerMobile {
+    display: flex;
+ margin-left: 25%;
+ margin-right: 12.5%;
+
+flex-direction: column;
+width: 100%;
+}
+.col1{
+  width: 100%;
+  
+}
+.footer{
+  height: 1000px;
+}
+.about{
+  height: 700px;
+}
+.topdestContent{
+  flex-direction: column;
+}
+
+}

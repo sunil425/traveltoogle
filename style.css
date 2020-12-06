@@ -3,7 +3,12 @@
     height: 710px;
     background: #F98B56;
     flex-direction: row;
+    background-image: url('world.png');
 }
+.card{
+  border: none;
+}
+
 .containerBox{
   padding-left: 150px;
   padding-right: 150px;
@@ -104,6 +109,20 @@ font-weight: 400;
 
 
 }
+
+/* .achievementBox1{
+  display: flex;
+
+}
+.achievementBox2{
+  display: flex;
+  justify-content: ;
+
+} */
+
+.col1{
+
+}
 .card{
   margin-bottom: 0px !important;
 }
@@ -111,11 +130,31 @@ font-weight: 400;
   column-gap: 0.25rem;
 }
 .viewAllBtn{
-  background-color: #F7762A;
+
+  font-family: Helvetica Neue;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+border: none;  
+  
+  color: #FFFFFF;
+  
+width: 135px;
+height: 37px;
+background: #F98B56;
+box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25);
 }
 .col1{
   width: 33.33%;
   text-align: left;
+}
+.fa-search{
+    position: absolute;
+    top: 13px;
+    z-index: 1;
+    font-size: 20px;
+    color: #A1A1A1;
+    left: 67%;
 }
 
 
@@ -133,6 +172,10 @@ font-weight: 400;
   .travelContentImg1{
     width: 100%;
   }
+  .containerBox{
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
 } 
 
 
@@ -144,6 +187,9 @@ font-weight: 400;
 
 flex-direction: column;
 width: 100%;
+}
+.inputBox,.resultBox{
+  width: 100%;
 }
 
 .travelContent1,.travelContent2,.travelContent3{
@@ -182,7 +228,10 @@ width: 100%;
   flex-direction: column;
 
 }
-
+.containerBox{
+  padding-left: 150px !important;
+  padding-right: 150px !important;
+}
 .topdestination{
   flex-direction: column;
 }
@@ -192,12 +241,21 @@ width: 100%;
 
 
 }
-@media (max-width:730px){
 
-  .containerBox{
-    padding-left: 0px !important;
-  }
+.travelExperience{
+  width: 50%;
 }
+
+.destinations{
+  width: 50% !important;
+}
+.guaranteed{
+  width: 50%;
+}
+.customers{
+  width: 50%;
+}
+
 
 body{
   overflow-x: hidden;
@@ -219,4 +277,23 @@ body{
 flex-direction: column;
 }
 
+}
+@media (max-width:730px){
+
+  .containerBox{
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+
+  }
+}
+
+@media(min-width:1001px) and (max-width:1200px){
+  .containerBox{
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+
+  }
+  body{
+    overflow-x: hidden
+  }
 }
